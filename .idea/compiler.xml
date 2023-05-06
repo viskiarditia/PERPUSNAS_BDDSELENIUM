@@ -9,6 +9,7 @@
         <module name="FacebookAutomation" />
         <module name="InstagramAutomation" />
         <module name="TemplateSeleniumBDD" />
+        <module name="PERPUSNAS_BDDSELENIUM" />
       </profile>
     </annotationProcessing>
   </component>
