@@ -1,0 +1,3 @@
+step_definitions/RunCukesTest.class
+step_definitions/ProfileStep/VisiMisiPage.class
+step_definitions/Hooks.class

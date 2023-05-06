@@ -16,7 +16,7 @@ public class Hooks {
         a.addArguments("--remote-allow-origins=*");
         WebDriverManager.chromedriver().setup();
         webDriver= new ChromeDriver(a);
-        String URL = "https://www.facebook.com/?stype=lo&jlou=AfcN47Xlz6u06dl1rAu3f5CalF-EcXlXB0t1-V6ITiqkD1869ns82sJqH0JYkzChPQbdk2ef6zrHIkwdCh-hlNl7JbpXxIJp9xwf1rqeR2fWjA&smuh=53382&lh=Ac89zypcN83ZyiTM7D4";
+        String URL = "https://www.perpusnas.go.id/";
         webDriver.get(URL);
         webDriver.manage().window().maximize();
     }

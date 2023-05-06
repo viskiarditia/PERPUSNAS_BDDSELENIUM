@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23396999728,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Profile visi-misi",
+        "description": "",
+        "id": "profile;profile-visi-misi",
+        "after": [
+          {
+            "result": {
+              "duration": 2223242798,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3973596759,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open the website perpusnas home page",
+            "match": {
+              "location": "VisiMisiPage.userOpenTheWebsitePerpusnasHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3347311391,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User hover on the navbar profile",
+            "match": {
+              "location": "VisiMisiPage.userHoverOnTheNavbarProfile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3139942420,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User hover on the navbar kelembagaan",
+            "match": {
+              "location": "VisiMisiPage.userHoverOnTheNavbarKelembagaan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3225903995,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click submenu visi-misi",
+            "match": {
+              "location": "VisiMisiPage.userClickSubmenuVisiMisi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2079929600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User already on page visi-misi",
+            "match": {
+              "location": "VisiMisiPage.userAlreadyOnPageVisiMisi()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Profile",
+    "description": "",
+    "id": "profile",
+    "keyword": "Feature",
+    "uri": "features/Profil/feature-01-VisiMisi.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Profile"
+      }
+    ]
+  }
+]
