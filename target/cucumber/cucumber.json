@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 23396999728,
+              "duration": 13915445832,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 2223242798,
+              "duration": 2226616842,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3973596759,
+              "duration": 3880437514,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3347311391,
+              "duration": 3130088488,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 3139942420,
+              "duration": 3086258098,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 3225903995,
+              "duration": 3104131920,
               "status": "passed"
             },
             "line": 7,
@@ -82,13 +82,105 @@
           },
           {
             "result": {
-              "duration": 2079929600,
+              "duration": 2058467189,
               "status": "passed"
             },
             "line": 8,
             "name": "User already on page visi-misi",
             "match": {
               "location": "VisiMisiPage.userAlreadyOnPageVisiMisi()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6176198081,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Profile Falsafah Logo",
+        "description": "",
+        "id": "profile;profile-falsafah-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 2220351409,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2200247452,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User open the website perpusnas home page",
+            "match": {
+              "location": "VisiMisiPage.userOpenTheWebsitePerpusnasHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3150747635,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User hover on the navbar profile",
+            "match": {
+              "location": "VisiMisiPage.userHoverOnTheNavbarProfile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3074448029,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User hover on the navbar kelembagaan",
+            "match": {
+              "location": "VisiMisiPage.userHoverOnTheNavbarKelembagaan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086290457,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click submenu falsafah logo",
+            "match": {
+              "location": "VisiMisiPage.userClickSubmenuFalsafahLogo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2041249761,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User already on page falsafah logo",
+            "match": {
+              "location": "VisiMisiPage.userAlreadyOnPageFalsafahLogo()"
             },
             "keyword": "Then "
           }

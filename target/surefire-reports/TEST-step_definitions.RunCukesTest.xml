@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="step_definitions.RunCukesTest" time="2.229" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="step_definitions.RunCukesTest" time="4.455" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
@@ -64,10 +64,16 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Profile visi-misi" name="Given User open the website perpusnas home page" time="0.003"/>
+  <testcase classname="Scenario: Profile visi-misi" name="Given User open the website perpusnas home page" time="0.004"/>
   <testcase classname="Scenario: Profile visi-misi" name="When User hover on the navbar profile" time="0"/>
   <testcase classname="Scenario: Profile visi-misi" name="And User hover on the navbar kelembagaan" time="0"/>
   <testcase classname="Scenario: Profile visi-misi" name="And User click submenu visi-misi" time="0"/>
   <testcase classname="Scenario: Profile visi-misi" name="Then User already on page visi-misi" time="0"/>
-  <testcase classname="Scenario: Profile visi-misi" name="Scenario: Profile visi-misi" time="2.226"/>
+  <testcase classname="Scenario: Profile visi-misi" name="Scenario: Profile visi-misi" time="2.229"/>
+  <testcase classname="Scenario: Profile Falsafah Logo" name="Given User open the website perpusnas home page" time="0"/>
+  <testcase classname="Scenario: Profile Falsafah Logo" name="When User hover on the navbar profile" time="0"/>
+  <testcase classname="Scenario: Profile Falsafah Logo" name="And User hover on the navbar kelembagaan" time="0"/>
+  <testcase classname="Scenario: Profile Falsafah Logo" name="And User click submenu falsafah logo" time="0"/>
+  <testcase classname="Scenario: Profile Falsafah Logo" name="Then User already on page falsafah logo" time="0"/>
+  <testcase classname="Scenario: Profile Falsafah Logo" name="Scenario: Profile Falsafah Logo" time="2.222"/>
 </testsuite>
