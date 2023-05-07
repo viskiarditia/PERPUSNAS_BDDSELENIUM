@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.security.cert.X509Certificate;
+
 public class ProfilPage {
 
     public static WebDriver webDriver;
@@ -85,8 +87,19 @@ public class ProfilPage {
         pageVisiMisi.isDisplayed();
         return true;
     }
+//    MARS DAN HYMNE
+    @FindBy(xpath = "//a[.='Mars dan Hymne']")
+    private WebElement MarsDanHymne;
 
-
+    public void setMarsDanHymne() {
+        TugasDanFungsi.click();
+    }
+    @FindBy(xpath = "//div[@class='overflow-x-hidden']")
+    private WebElement pageMarsAndHymne;
+    public boolean setPagemarsAndHymne() {
+        pageMarsAndHymne.isDisplayed();
+        return true;
+    }
 }
 
 
