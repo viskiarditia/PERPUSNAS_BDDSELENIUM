@@ -9,11 +9,13 @@ import step_definitions.Hooks;
 
 public class FalsafahlogoPage {
     private WebDriver webDriver;
+
     public FalsafahlogoPage() throws InterruptedException {
         super();
         this.webDriver = Hooks.webDriver;
 
     }
+
     @And("^User click submenu falsafah logo$")
     public void userClickSubmenuFalsafahLogo() throws InterruptedException {
         ProfilPage profilPage = new ProfilPage(webDriver);
@@ -28,4 +30,5 @@ public class FalsafahlogoPage {
         Thread.sleep(2000);
 
     }
+
 }

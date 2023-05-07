@@ -29,13 +29,15 @@ public class ProfilPage {
     public void setProfil() {
         Profil.click();
     }
+
     @FindBy(xpath = "//a[.='Kelembagaan']")
     private WebElement Kelembagaan;
 
     public void setKelembagaan() {
         Kelembagaan.click();
     }
-//    VISI-MISI
+
+    //    VISI-MISI
     @FindBy(xpath = "//a[.='Visi dan Misi']")
     private WebElement VisiMisi;
 
@@ -51,12 +53,15 @@ public class ProfilPage {
         return true;
 
     }
-//    FALSAFAH LOGO
+
+    //    FALSAFAH LOGO
     @FindBy(xpath = "//a[.='Falsafah Logo']")
     private WebElement FalsafahLogo;
-    public void setFalsafahLogo(){
+
+    public void setFalsafahLogo() {
         FalsafahLogo.click();
     }
+
     @FindBy(xpath = "//div[@class='overflow-x-hidden']")
     private WebElement pageFalsafahLogo;
 
@@ -65,10 +70,24 @@ public class ProfilPage {
         return true;
     }
 
+    //    TUGAS DAN FUNGSI
+    @FindBy(xpath = "//a[.='Tugas dan Fungsi']")
+    private WebElement TugasDanFungsi;
+
+    public void setTugasDanFungsi() {
+        TugasDanFungsi.click();
+    }
+
+    @FindBy(xpath = "//div[@class='overflow-x-hidden']/div[@class='w-full']")
+    private WebElement pageTugasDanFungsi;
+
+    public boolean setPageTugasDanFungsi() {
+        pageVisiMisi.isDisplayed();
+        return true;
+    }
+
+
 }
-
-
-
 
 
 
