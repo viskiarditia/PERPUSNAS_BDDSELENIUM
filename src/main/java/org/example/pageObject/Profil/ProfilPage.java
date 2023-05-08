@@ -100,6 +100,20 @@ public class ProfilPage {
         pageMarsAndHymne.isDisplayed();
         return true;
     }
+//    FOTO GEDUNG
+    @FindBy(xpath = "//a[.='Foto Gedung']")
+    private WebElement FotoGedung;
+
+    public void setFotoGedung() {
+        TugasDanFungsi.click();
+    }
+    @FindBy(xpath = "//div[@class='overflow-x-hidden']")
+    private WebElement pageFotoGedung;
+    public boolean setPageFotoGedung() {
+        pageFotoGedung.isDisplayed();
+        return true;
+    }
+
 }
 
 

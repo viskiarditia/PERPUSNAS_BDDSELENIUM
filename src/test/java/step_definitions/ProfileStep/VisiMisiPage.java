@@ -50,6 +50,6 @@ public class VisiMisiPage {
         ProfilPage profilPage = new ProfilPage(webDriver);
         Assert.assertTrue(profilPage.setPageVisiMisi());
         Thread.sleep(2000);
-
     }
+
 }
