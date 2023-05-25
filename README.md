@@ -26,3 +26,14 @@ Pembagian Menu Fitur :
 -Layanan </br>
 </br>
 </br>
+
+Follow Linked In : </br>
+</br>
+Fizki Arditia Kusuma </br>
+https://www.linkedin.com/in/fizkiarditiakusuma/
+</br>
+Kukuh Pradipto </br>
+https://www.linkedin.com/in/kukuh-pradipto/
+</br>
+Abdi Firmansyah </br>
+https://www.linkedin.com/in/abdi-firmansyah/
