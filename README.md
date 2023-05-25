@@ -20,7 +20,6 @@ Pembagian Menu Fitur :
 -Aktivitas </br>
 -Profile </br>
 </br>
-</br>
 [Kukuh] </br>
 -Indonesiana </br>
 -Rekomendasi </br>
