@@ -1,8 +1,7 @@
 Feature: Testing menu Warta
-  Scenario: "Warta Functionality Vol 1- load more"
+  Background:
     Given User open website perpusnas
     When click hover Koleksi Digital and go majalah online and click sub menu Warta
-    Then Click "Vol. 19 No. 1 - Januari 2014"
-    And Click sub menu Warta
-    Then Click "Vol. 19 No. 1 - Januari 2014"
-    And Click sub menu Warta
+  Scenario: "Warta Functionality Vol 1- load more"
+    Then Click Volume 19 Nomor 1 - Januari Tahun 2014 and return to the previous page
+    Then Click Volume 19 Nomor 1 - April Tahun 2014 and return to the previous page

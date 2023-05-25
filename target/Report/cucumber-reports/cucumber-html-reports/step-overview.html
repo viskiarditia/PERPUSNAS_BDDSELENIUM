@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Alterra Immersive Web Testing</td>
+                          <td>1</td>
+                        <td>25 May 2023, 11:52</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">Hooks.closeBrowser()</td>
+                <td>1</td>
+                <td class="duration" data-value="2249026500">2s 249ms</td>
+                <td class="duration" data-value="2249026500">2s 249ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Hooks.openBrowser()</td>
+                <td>1</td>
+                <td class="duration" data-value="25424454083">25s 424ms</td>
+                <td class="duration" data-value="25424454083">25s 424ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickHoverKoleksiDigitalAndGoMajalahOnlineAndClickSubMenuJumantara()</td>
+                <td>1</td>
+                <td class="duration" data-value="15294915917">15s 294ms</td>
+                <td class="duration" data-value="15294915917">15s 294ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume6Nomor1Tahun2015AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="8219802959">8s 219ms</td>
+                <td class="duration" data-value="8219802959">8s 219ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume6Nomor2Tahun2015AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="5880655000">5s 880ms</td>
+                <td class="duration" data-value="5880655000">5s 880ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume7Nomor1Tahun2016AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3412382250">3s 412ms</td>
+                <td class="duration" data-value="3412382250">3s 412ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume7Nomor2Tahun2016AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3207260375">3s 207ms</td>
+                <td class="duration" data-value="3207260375">3s 207ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume8Nomor1Tahun2017AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="4121405917">4s 121ms</td>
+                <td class="duration" data-value="4121405917">4s 121ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume8Nomor2Tahun2017AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3298242083">3s 298ms</td>
+                <td class="duration" data-value="3298242083">3s 298ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume9Nomor1OktoberTahun2010AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="4347189834">4s 347ms</td>
+                <td class="duration" data-value="4347189834">4s 347ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume9Nomor1Tahun2018AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3205953792">3s 205ms</td>
+                <td class="duration" data-value="3205953792">3s 205ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickJumantaraVolume9Nomor2Tahun2018AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3390876250">3s 390ms</td>
+                <td class="duration" data-value="3390876250">3s 390ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickVolume2Nomor1AprilTahun2010AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3297311750">3s 297ms</td>
+                <td class="duration" data-value="3297311750">3s 297ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickVolume2Nomor2OktoberTahun2011AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3220625417">3s 220ms</td>
+                <td class="duration" data-value="3220625417">3s 220ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.clickVolume3Nomor1AprilTahun2012AndReturnToThePreviousPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="3203387625">3s 203ms</td>
+                <td class="duration" data-value="3203387625">3s 203ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.scrollDownPageForNextOneStep()</td>
+                <td>3</td>
+                <td class="duration" data-value="9562034293">9s 562ms</td>
+                <td class="duration" data-value="3187344764">3s 187ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.scrollDownPageForNextThreeStep()</td>
+                <td>3</td>
+                <td class="duration" data-value="9064748040">9s 064ms</td>
+                <td class="duration" data-value="3021582680">3s 021ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JumantaraStepdefs.scrollDownPageForNextTwoStep()</td>
+                <td>3</td>
+                <td class="duration" data-value="9051156166">9s 051ms</td>
+                <td class="duration" data-value="3017052055">3s 017ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LandingPageStepdefs.userOpenWebsitePerpusnas()</td>
+                <td>1</td>
+                <td class="duration" data-value="6543140792">6s 543ms</td>
+                <td class="duration" data-value="6543140792">6s 543ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>19</td>
+              <td>25</td>
+              <td class="duration">2m 5s 994ms</td>
+              <td class="duration">5s 039ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

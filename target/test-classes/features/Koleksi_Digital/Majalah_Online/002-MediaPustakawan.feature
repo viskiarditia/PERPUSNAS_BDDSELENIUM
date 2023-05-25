@@ -1,18 +1,15 @@
 Feature: Testing menu Media  Pustakawan
-  Scenario: "Media  Pustakawan Functionality Vol 1- load more"
+  Background:
     Given User open website perpusnas
-    When click hover Koleksi Digital nd go majalah online and click sub menu Media  Pustakawan
-    And Scroll Down page
-    Then Click " Vol. 17 no.3 - Juni 2010"
-    And Click sub menu Media  Pustakawan
-    Then Click "Vol. 19 no.1 -  Maret 2012"
-    And Click sub menu Media  Pustakawan
-    Then Click "Vol. 19 no.2 - April 2012"
-    And Click sub menu Media  Pustakawan
-    And Scroll Down page
-    Then Click "Vol. 2 no.2 - Juli 1995"
-    And Click sub menu Media  Pustakawan
-    Then Click "Vol. 20 no.1 - April 2013"
-    And Click sub menu Media  Pustakawan
-    Then Click "Vol. 20 no.2 - Januari 2013"
-    And Click sub menu Media  Pustakawan
+    When click hover Koleksi Digital and go majalah online and click sub menu Media  Pustakawan
+  Scenario: "Media  Pustakawan Functionality Vol 1- load more"
+    Then Click Volume 17 Nomor 3 - Juni Tahun 2010 and return to the previous page
+    Then Click Volume 19 Nomor 1 - Maret Tahun 2012 and return to the previous page
+    Then Click Volume 19 Nomor 2 - April Tahun 2012 and return to the previous page
+    And Scroll Down page for next one step
+    Then Click Volume 2 Nomor 2 - Juli Tahun 1995 and return to the previous page
+    And Scroll Down page for next one step
+    Then Click Volume 20 Nomor 1 - April Tahun 2013 and return to the previous page
+    And Scroll Down page for next one step
+    Then Click Volume 20 Nomor 2 - Januari Tahun 2013
+

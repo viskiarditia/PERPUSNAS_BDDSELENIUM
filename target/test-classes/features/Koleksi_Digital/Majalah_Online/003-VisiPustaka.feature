@@ -1,10 +1,8 @@
 Feature: Testing menu Visi Pustaka
-  Scenario: "Visi Pustaka Functionality Vol 1- load more"
+  Background:
     Given User open website perpusnas
     When click hover Koleksi Digital and go majalah online and click sub menu Visi Pustaka
-    Then Click "Vol. 02 No. 2 - Desember  2000"
-    And Click sub menu Visi Pustaka
-    Then Click "Vol. 03 No. 1 - Juni 2001"
-    And Click sub menu Visi Pustaka
-    Then Click "Vol. 03 No. 2 - Desember 2001"
-    And Click sub menu Visi Pustaka
+  Scenario: "Visi Pustaka Functionality Vol 1- load more"
+    Then Click Volume 02 Nomor 2 - Desember Tahun 2000 and return to the previous page
+    Then Click Volume 03 Nomor 1 - Juni Tahun 2001 and return to the previous page
+    Then Click Volume 03 Nomor 2 - Desember Tahun 2001 and return to the previous page
