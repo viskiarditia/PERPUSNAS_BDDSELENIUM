@@ -12,7 +12,7 @@ https://www.perpusnas.go.id/
 Pembagian Menu Fitur :
 </br>
 </br>
-[viski] </br>
+[Fizki/Viski] </br>
 -Beranda </br>
 -Koleksi digital </br>
 </br>
