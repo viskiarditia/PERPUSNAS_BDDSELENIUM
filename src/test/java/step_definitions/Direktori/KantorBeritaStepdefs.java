@@ -27,13 +27,14 @@ public class KantorBeritaStepdefs {
         Thread.sleep(500);
         WebElement Direktori = webDriver.findElement(By.xpath("//a[.='Direktori']"));
         Direktori.click();
+        Thread.sleep(500);
         WebElement ClickSubMenu = webDriver.findElement(By.cssSelector("[href='/direktori/kantor-berita']"));
         ClickSubMenu.click();
         Thread.sleep(500);
     }
 
-    @And("^Click and Check All div class in page$")
-    public void clickAndCheckAllDivClassInPage() throws InterruptedException {
+    @And("^Click and Check All div class Kantor Berita in page$")
+    public void clickAndCheckAllDivClassKantorBeritaInPage() throws InterruptedException {
         String[] xpathArray = {
                 "//div[contains(text(),'SUNA Sudan National News Agency')]",
                 "//div[contains(text(),'AA (Anadolu Ajansi)')]",
@@ -71,9 +72,12 @@ public class KantorBeritaStepdefs {
             Thread.sleep(500);
             js.executeScript("arguments[0].scrollIntoView(true);", element);
             Thread.sleep(500);
-            WebElement backDirektori = webDriver.findElement(By.xpath("//a[contains(text(),'direktori')]"));
-            backDirektori.click();
-            Thread.sleep(500);
         }
+        // Scroll back to the top
+        js.executeScript("window.scrollTo(0, 0);");
+        Thread.sleep(1000);
+        WebElement backDirektori = webDriver.findElement(By.xpath("//a[contains(text(),'direktori')]"));
+        backDirektori.click();
+        Thread.sleep(500);
     }
 }
