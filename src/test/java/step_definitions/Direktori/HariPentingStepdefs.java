@@ -29,8 +29,8 @@ public class HariPentingStepdefs {
         Thread.sleep(1000);
     }
 
-    @Then("^Click and Check All div class in page$")
-    public void clickAndCheckAllDivClassInPage() throws InterruptedException {
+    @Then("^Click and Check All div class Hari Penting in page$")
+    public void clickAndCheckAllDivClassHariPentingInPage() throws InterruptedException {
         String[] xpathArray = {
                 "//div[contains(text(),'Hari AIDS Sedunia')]",
                 "//div[contains(text(),'Hari Air Sedunia')]",
