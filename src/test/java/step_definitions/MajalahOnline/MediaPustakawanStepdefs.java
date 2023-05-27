@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.MajalahOnline;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import step_definitions.Hooks;
 
 public class MediaPustakawanStepdefs {
     private WebDriver webDriver;

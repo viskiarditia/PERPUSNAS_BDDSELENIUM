@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.MajalahOnline;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
@@ -9,6 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import step_definitions.Hooks;
 
 import javax.swing.*;
 import java.security.SecureRandom;

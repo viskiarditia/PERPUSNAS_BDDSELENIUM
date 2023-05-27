@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.Kamus;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
@@ -8,6 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import step_definitions.Hooks;
 
 public class IstilahPerpustakaanStepdefs {
     private WebDriver webDriver;
