@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @LembagaPemerintahan
 Feature: Testing menu Lembaga Pemerintahan
   Background:
     Given User open website perpusnas

@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @NomorTeleponPenting
 Feature: Testing menu Nomor Telepon Penting
   Background:
     Given User open website perpusnas

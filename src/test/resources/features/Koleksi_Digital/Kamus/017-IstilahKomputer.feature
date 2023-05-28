@@ -1,3 +1,4 @@
+@Perpusnas @Kamus @IstilahKomputer
 Feature: Testing menu Istilah Komputer
   Background:
     Given User open website perpusnas

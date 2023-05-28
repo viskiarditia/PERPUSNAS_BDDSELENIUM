@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @MediaMassaOnline
 Feature: Testing menu Media Massa Online
   Background:
     Given User open website perpusnas

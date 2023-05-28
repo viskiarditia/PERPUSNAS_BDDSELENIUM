@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @KantorBerita
 Feature: Testing menu Kantor Berita
   Background:
     Given User open website perpusnas

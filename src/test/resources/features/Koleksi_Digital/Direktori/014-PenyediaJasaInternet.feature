@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @PenyediaJasaInternet
 Feature: Testing menu Penyedia Jasa Internet
   Background:
     Given User open website perpusnas

@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @HariPenting
 Feature: Testing menu Hari Penting
   Background:
     Given User open website perpusnas

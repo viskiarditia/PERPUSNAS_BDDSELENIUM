@@ -1,3 +1,4 @@
+@Perpusnas @MajalahOnline @Warta
 Feature: Testing menu Warta
   Background:
     Given User open website perpusnas
