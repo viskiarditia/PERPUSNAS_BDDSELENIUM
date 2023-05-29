@@ -1,3 +1,4 @@
+@Perpusnas @Kamus @IstilahPerpustakaan
 Feature: Testing menu Perpustakaan Nasional
   Background:
     Given User open website perpusnas

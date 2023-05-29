@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @PerpustakaanNasionalInternet
 Feature: Testing menu Perpustakaan Nasional
   Background:
     Given User open website perpusnas

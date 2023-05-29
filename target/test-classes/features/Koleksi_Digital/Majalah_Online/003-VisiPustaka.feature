@@ -1,3 +1,4 @@
+@Perpusnas @MajalahOnline @VisiPustaka
 Feature: Testing menu Visi Pustaka
   Background:
     Given User open website perpusnas

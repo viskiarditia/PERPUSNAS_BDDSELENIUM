@@ -1,3 +1,4 @@
+@Perpusnas @MajalahOnline @MediaPustakawan
 Feature: Testing menu Media  Pustakawan
   Background:
     Given User open website perpusnas

@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @LembagaKesehatan
 Feature: Testing menu Lembaga Kesehatan
   Background:
     Given User open website perpusnas

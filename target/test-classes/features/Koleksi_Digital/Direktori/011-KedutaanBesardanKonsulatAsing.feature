@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @KedutaanBesardanKonsulatAsing
 Feature: Testing menu Kedutaan Besar dan Konsulat Asing
   Background:
     Given User open website perpusnas

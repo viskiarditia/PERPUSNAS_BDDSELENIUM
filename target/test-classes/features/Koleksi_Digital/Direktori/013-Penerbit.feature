@@ -1,3 +1,4 @@
+@Perpusnas @Direktori @Penerbit
 Feature: Testing menu Penerbit
   Background:
     Given User open website perpusnas
