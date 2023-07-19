@@ -1,0 +1,6 @@
+step_definitions/LoginSteps.class
+step_definitions/BerandaReviewSteps.class
+step_definitions/BerandaSteps.class
+step_definitions/HomeSteps.class
+step_definitions/Hooks.class
+step_definitions/RunCukesTest.class
