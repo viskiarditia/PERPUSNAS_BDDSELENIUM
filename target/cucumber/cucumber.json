@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1424257834,
+              "duration": 3434864958,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 6519041708,
+              "duration": 8832638250,
               "status": "passed"
             },
             "line": 5,
@@ -36,10 +36,28 @@
         ]
       },
       {
+        "comments": [
+          {
+            "line": 6,
+            "value": "#  Scenario: \"Users Click Scroll to Layanan Kami\""
+          },
+          {
+            "line": 7,
+            "value": "#    Then User Hover All Content in Beranda Layanan Kami"
+          },
+          {
+            "line": 8,
+            "value": "#  Scenario: \"Users Click Scroll to Unit Kerja\""
+          },
+          {
+            "line": 9,
+            "value": "#    Then User Click All Content in Unit Kerja"
+          }
+        ],
         "before": [
           {
             "result": {
-              "duration": 19990743666,
+              "duration": 27547148375,
               "status": "passed"
             },
             "match": {
@@ -47,14 +65,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "\"Users Click Scroll to Layanan Kami\"",
+        "line": 10,
+        "name": "\"Users Click Scroll to Berita Terbaru\"",
         "description": "",
-        "id": "testing-menu-radio;\"users-click-scroll-to-layanan-kami\"",
+        "id": "testing-menu-radio;\"users-click-scroll-to-berita-terbaru\"",
         "after": [
           {
             "result": {
-              "duration": 2118037459,
+              "duration": 2119586583,
               "status": "passed"
             },
             "match": {
@@ -67,13 +85,13 @@
         "steps": [
           {
             "result": {
-              "duration": 18912567709,
+              "duration": 13739019000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User Hover All Content in Beranda Layanan Kami",
+            "line": 11,
+            "name": "User Click All Content in Berita Terbaru",
             "match": {
-              "location": "BerandaReviewSteps.userHoverAllContentInBerandaLayananKami()"
+              "location": "BerandaReviewSteps.userClickAllContentInBeritaTerbaru()"
             },
             "keyword": "Then "
           }

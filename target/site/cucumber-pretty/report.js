@@ -21,7 +21,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 19990743666,
+  "duration": 27547148375,
   "status": "passed"
 });
 formatter.background({
@@ -45,38 +45,56 @@ formatter.match({
   "location": "BerandaSteps.userOpenWebsitePerpusnas()"
 });
 formatter.result({
-  "duration": 1424257834,
+  "duration": 3434864958,
   "status": "passed"
 });
 formatter.match({
   "location": "BerandaSteps.clickMenuBeranda()"
 });
 formatter.result({
-  "duration": 6519041708,
+  "duration": 8832638250,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 6,
-  "name": "\"Users Click Scroll to Layanan Kami\"",
+  "comments": [
+    {
+      "line": 6,
+      "value": "#  Scenario: \"Users Click Scroll to Layanan Kami\""
+    },
+    {
+      "line": 7,
+      "value": "#    Then User Hover All Content in Beranda Layanan Kami"
+    },
+    {
+      "line": 8,
+      "value": "#  Scenario: \"Users Click Scroll to Unit Kerja\""
+    },
+    {
+      "line": 9,
+      "value": "#    Then User Click All Content in Unit Kerja"
+    }
+  ],
+  "line": 10,
+  "name": "\"Users Click Scroll to Berita Terbaru\"",
   "description": "",
-  "id": "testing-menu-radio;\"users-click-scroll-to-layanan-kami\"",
+  "id": "testing-menu-radio;\"users-click-scroll-to-berita-terbaru\"",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 7,
-  "name": "User Hover All Content in Beranda Layanan Kami",
+  "line": 11,
+  "name": "User Click All Content in Berita Terbaru",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BerandaReviewSteps.userHoverAllContentInBerandaLayananKami()"
+  "location": "BerandaReviewSteps.userClickAllContentInBeritaTerbaru()"
 });
 formatter.result({
-  "duration": 18912567709,
+  "duration": 13739019000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2118037459,
+  "duration": 2119586583,
   "status": "passed"
 });
 });

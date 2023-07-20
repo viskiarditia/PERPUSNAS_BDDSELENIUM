@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="step_definitions.RunCukesTest" time="2.125" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="step_definitions.RunCukesTest" time="2.127" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
@@ -64,8 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Layanan Kami&quot;" name="Given User open website perpusnas" time="0.004"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Layanan Kami&quot;" name="When click Menu Beranda" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Layanan Kami&quot;" name="Then User Hover All Content in Beranda Layanan Kami" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Layanan Kami&quot;" name="Scenario: &quot;Users Click Scroll to Layanan Kami&quot;" time="2.121"/>
+  <testcase classname="Scenario: &quot;Users Click Scroll to Berita Terbaru&quot;" name="Given User open website perpusnas" time="0.004"/>
+  <testcase classname="Scenario: &quot;Users Click Scroll to Berita Terbaru&quot;" name="When click Menu Beranda" time="0"/>
+  <testcase classname="Scenario: &quot;Users Click Scroll to Berita Terbaru&quot;" name="Then User Click All Content in Berita Terbaru" time="0"/>
+  <testcase classname="Scenario: &quot;Users Click Scroll to Berita Terbaru&quot;" name="Scenario: &quot;Users Click Scroll to Berita Terbaru&quot;" time="2.123"/>
 </testsuite>
