@@ -21,7 +21,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 27547148375,
+  "duration": 22982714666,
   "status": "passed"
 });
 formatter.background({
@@ -45,14 +45,14 @@ formatter.match({
   "location": "BerandaSteps.userOpenWebsitePerpusnas()"
 });
 formatter.result({
-  "duration": 3434864958,
+  "duration": 2442312250,
   "status": "passed"
 });
 formatter.match({
   "location": "BerandaSteps.clickMenuBeranda()"
 });
 formatter.result({
-  "duration": 8832638250,
+  "duration": 10227313167,
   "status": "passed"
 });
 formatter.scenario({
@@ -72,29 +72,37 @@ formatter.scenario({
     {
       "line": 9,
       "value": "#    Then User Click All Content in Unit Kerja"
+    },
+    {
+      "line": 10,
+      "value": "#  Scenario: \"Users Click Scroll to Berita Terbaru\""
+    },
+    {
+      "line": 11,
+      "value": "#    Then User Click All Content in Berita Terbaru"
     }
   ],
-  "line": 10,
-  "name": "\"Users Click Scroll to Berita Terbaru\"",
+  "line": 12,
+  "name": "\"Users Click Scroll to Buku Terbaru\"",
   "description": "",
-  "id": "testing-menu-radio;\"users-click-scroll-to-berita-terbaru\"",
+  "id": "testing-menu-radio;\"users-click-scroll-to-buku-terbaru\"",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 11,
-  "name": "User Click All Content in Berita Terbaru",
+  "line": 13,
+  "name": "User Click All Content in Buku Terbaru",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BerandaReviewSteps.userClickAllContentInBeritaTerbaru()"
+  "location": "BerandaReviewSteps.userClickAllContentInBukuTerbaru()"
 });
 formatter.result({
-  "duration": 13739019000,
+  "duration": 17927420917,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2119586583,
+  "duration": 2173561250,
   "status": "passed"
 });
 });

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3434864958,
+              "duration": 2442312250,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 8832638250,
+              "duration": 10227313167,
               "status": "passed"
             },
             "line": 5,
@@ -52,12 +52,20 @@
           {
             "line": 9,
             "value": "#    Then User Click All Content in Unit Kerja"
+          },
+          {
+            "line": 10,
+            "value": "#  Scenario: \"Users Click Scroll to Berita Terbaru\""
+          },
+          {
+            "line": 11,
+            "value": "#    Then User Click All Content in Berita Terbaru"
           }
         ],
         "before": [
           {
             "result": {
-              "duration": 27547148375,
+              "duration": 22982714666,
               "status": "passed"
             },
             "match": {
@@ -65,14 +73,14 @@
             }
           }
         ],
-        "line": 10,
-        "name": "\"Users Click Scroll to Berita Terbaru\"",
+        "line": 12,
+        "name": "\"Users Click Scroll to Buku Terbaru\"",
         "description": "",
-        "id": "testing-menu-radio;\"users-click-scroll-to-berita-terbaru\"",
+        "id": "testing-menu-radio;\"users-click-scroll-to-buku-terbaru\"",
         "after": [
           {
             "result": {
-              "duration": 2119586583,
+              "duration": 2173561250,
               "status": "passed"
             },
             "match": {
@@ -85,13 +93,13 @@
         "steps": [
           {
             "result": {
-              "duration": 13739019000,
+              "duration": 17927420917,
               "status": "passed"
             },
-            "line": 11,
-            "name": "User Click All Content in Berita Terbaru",
+            "line": 13,
+            "name": "User Click All Content in Buku Terbaru",
             "match": {
-              "location": "BerandaReviewSteps.userClickAllContentInBeritaTerbaru()"
+              "location": "BerandaReviewSteps.userClickAllContentInBukuTerbaru()"
             },
             "keyword": "Then "
           }

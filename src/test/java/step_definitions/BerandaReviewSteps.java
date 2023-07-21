@@ -8,6 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 import static step_definitions.Hooks.webDriver;
 
 public class BerandaReviewSteps {
+    JavascriptExecutor js = (JavascriptExecutor) webDriver;
+    Actions actions = new Actions(webDriver);
     @Then("^User Hover All Content in Beranda Layanan Kami$")
     public void userHoverAllContentInBerandaLayananKami() throws InterruptedException {
         String[] elementSelectors = {
@@ -20,8 +22,6 @@ public class BerandaReviewSteps {
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[2]/div[7]/div[1]",
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[2]/div[8]/div[1]",
         };
-        Actions actions = new Actions(webDriver);
-        JavascriptExecutor js = (JavascriptExecutor) webDriver;
         js.executeScript("window.scrollBy(0,500)", "");
 
         for (String selector : elementSelectors) {
@@ -53,8 +53,6 @@ public class BerandaReviewSteps {
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[17]",
 
         };
-        Actions actions = new Actions(webDriver);
-        JavascriptExecutor js = (JavascriptExecutor) webDriver;
         js.executeScript("window.scrollBy(0,1800)", "");
 
         for (String selector : elementSelectors) {
@@ -71,8 +69,6 @@ public class BerandaReviewSteps {
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[3]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/a[1]/h3[1]",
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[3]/div[1]/div[2]/div[1]/div[3]/div[1]/div[3]/div[1]/div[2]/div[1]/a[1]/h3[1]",
         };
-        Actions actions = new Actions(webDriver);
-        JavascriptExecutor js = (JavascriptExecutor) webDriver;
         js.executeScript("window.scrollBy(0,2200)", "");
 
         for (String selector : elementSelectors) {
@@ -80,5 +76,39 @@ public class BerandaReviewSteps {
             actions.moveToElement(element).perform();
             Thread.sleep(500);
         }
+    }
+
+    @Then("^User Click All Content in Buku Terbaru$")
+    public void userClickAllContentInBukuTerbaru() throws InterruptedException {
+
+        WebElement bukuTerbaru = webDriver.findElement(By.xpath("//h2[.='Buku Terbaru']"));
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", bukuTerbaru);
+        WebElement judulBukuTerbaru = webDriver.findElement(By.xpath("//h3[contains(.,'Ensiklopedia nusantara')]"));
+        judulBukuTerbaru.click();
+        Thread.sleep(5000);
+        js.executeScript("window.scrollBy(0, 4000)");
+        WebElement backToBeranda = webDriver.findElement(By.xpath("//a[.='Beranda']"));
+        backToBeranda.click();
+        Thread.sleep(1000);
+
+    }
+
+    @Then("^User Click All Content in Testimoni Kami$")
+    public void userClickAllContentInTestimoniKami() throws InterruptedException {
+        WebElement testimoniKami = webDriver.findElement(By.xpath("//h2[.='Testimoni Kami']"));
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", testimoniKami);
+        WebElement testimoniSatu = webDriver.findElement(By.xpath("//h3[.='Testimoni PJ Wali Kota Salatiga - Sinoeng Noegroho Rachmadi']"));
+        testimoniSatu.click();
+        Thread.sleep(5000);
+        js.executeScript("window.scrollBy(0, 3000)");
+        WebElement backToBeranda = webDriver.findElement(By.xpath("//a[.='Beranda']"));
+        backToBeranda.click();
+        Thread.sleep(1000);
+    }
+
+    @Then("^User Click All Content in Koleksi Unggulan$")
+    public void userClickAllContentInKoleksiUnggulan() {
+//        //h2[.='Koleksi Unggulan']
+        //slick slide
     }
 }
