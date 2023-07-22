@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import java.util.List;
 import static step_definitions.Hooks.webDriver;
 
 public class BerandaReviewSteps {
@@ -106,9 +107,19 @@ public class BerandaReviewSteps {
         Thread.sleep(1000);
     }
 
-    @Then("^User Click All Content in Koleksi Unggulan$")
-    public void userClickAllContentInKoleksiUnggulan() {
-//        //h2[.='Koleksi Unggulan']
+    @Then("^User Click All Content in Koleksi Unggulan (\\d+)$")
+    public void userClickAllContentInKoleksiUnggulan(int index) throws InterruptedException {
+        WebElement koleksiUnggulan = webDriver.findElement(By.xpath("//h2[.='Koleksi Unggulan']"));
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", koleksiUnggulan);
+        Thread.sleep(2000);
+
         //slick slide
+//        List<WebElement> slickSlides = webDriver.findElements(By.cssSelector(".news-area [data-index='5'] .single-features"));
+//        if (0 <= index && index < slickSlides.size()) {
+//            slickSlides.get(index).click();
+//        } else {
+//            throw new IndexOutOfBoundsException("Indeks " + index + " tidak valid untuk elemen slick-slide.");
+//        }
     }
+
 }

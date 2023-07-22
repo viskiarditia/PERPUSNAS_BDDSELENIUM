@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: step_definitions.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.059 sec
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 50.83 sec <<< FAILURE!
+Then User Click All Content in Koleksi Unggulan 5(Scenario: "Users Click Scroll to Koleksi Unggulan")  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Indeks 5 tidak valid untuk elemen slick-slide.
+	at step_definitions.BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(BerandaReviewSteps.java:121)
+	at ✽.Then User Click All Content in Koleksi Unggulan 5(features/Beranda/beranda-review.feature:17)
+
+Scenario: "Users Click Scroll to Koleksi Unggulan"  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Indeks 5 tidak valid untuk elemen slick-slide.
+	at step_definitions.BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(BerandaReviewSteps.java:121)
+	at ✽.Then User Click All Content in Koleksi Unggulan 5(features/Beranda/beranda-review.feature:17)
+

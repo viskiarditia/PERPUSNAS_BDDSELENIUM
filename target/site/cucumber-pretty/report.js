@@ -21,7 +21,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 22982714666,
+  "duration": 25398796125,
   "status": "passed"
 });
 formatter.background({
@@ -45,14 +45,14 @@ formatter.match({
   "location": "BerandaSteps.userOpenWebsitePerpusnas()"
 });
 formatter.result({
-  "duration": 2442312250,
+  "duration": 3023213959,
   "status": "passed"
 });
 formatter.match({
   "location": "BerandaSteps.clickMenuBeranda()"
 });
 formatter.result({
-  "duration": 10227313167,
+  "duration": 15779000458,
   "status": "passed"
 });
 formatter.scenario({
@@ -80,29 +80,52 @@ formatter.scenario({
     {
       "line": 11,
       "value": "#    Then User Click All Content in Berita Terbaru"
+    },
+    {
+      "line": 12,
+      "value": "#  Scenario: \"Users Click Scroll to Buku Terbaru\""
+    },
+    {
+      "line": 13,
+      "value": "#    Then User Click All Content in Buku Terbaru"
+    },
+    {
+      "line": 14,
+      "value": "#  Scenario: \"Users Click Scroll to Testimoni Kami\""
+    },
+    {
+      "line": 15,
+      "value": "#    Then User Click All Content in Testimoni Kami"
     }
   ],
-  "line": 12,
-  "name": "\"Users Click Scroll to Buku Terbaru\"",
+  "line": 16,
+  "name": "\"Users Click Scroll to Koleksi Unggulan\"",
   "description": "",
-  "id": "testing-menu-radio;\"users-click-scroll-to-buku-terbaru\"",
+  "id": "testing-menu-radio;\"users-click-scroll-to-koleksi-unggulan\"",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 13,
-  "name": "User Click All Content in Buku Terbaru",
+  "line": 17,
+  "name": "User Click All Content in Koleksi Unggulan 5",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BerandaReviewSteps.userClickAllContentInBukuTerbaru()"
+  "arguments": [
+    {
+      "val": "5",
+      "offset": 43
+    }
+  ],
+  "location": "BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(int)"
 });
 formatter.result({
-  "duration": 17927420917,
-  "status": "passed"
+  "duration": 4244382500,
+  "error_message": "java.lang.IndexOutOfBoundsException: Indeks 5 tidak valid untuk elemen slick-slide.\n\tat step_definitions.BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(BerandaReviewSteps.java:121)\n\tat ✽.Then User Click All Content in Koleksi Unggulan 5(features/Beranda/beranda-review.feature:17)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 2173561250,
+  "duration": 2116087500,
   "status": "passed"
 });
 });
