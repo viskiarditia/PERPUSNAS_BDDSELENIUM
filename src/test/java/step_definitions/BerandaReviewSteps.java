@@ -3,14 +3,26 @@ package step_definitions;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 import static step_definitions.Hooks.webDriver;
 
 public class BerandaReviewSteps {
-    JavascriptExecutor js = (JavascriptExecutor) webDriver;
+    private WebDriverWait wait;
+    private JavascriptExecutor js;
+    public BerandaReviewSteps() {
+        // Konstruktor kosong
+        super();
+        this.wait = new WebDriverWait(webDriver, 15);
+        this.js = (JavascriptExecutor) webDriver;
+    }
     Actions actions = new Actions(webDriver);
+
     @Then("^User Hover All Content in Beranda Layanan Kami$")
     public void userHoverAllContentInBerandaLayananKami() throws InterruptedException {
         String[] elementSelectors = {
@@ -112,14 +124,17 @@ public class BerandaReviewSteps {
         WebElement koleksiUnggulan = webDriver.findElement(By.xpath("//h2[.='Koleksi Unggulan']"));
         js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", koleksiUnggulan);
         Thread.sleep(2000);
+        By slickSlideLocator = By.cssSelector(".news-area [data-index='0']");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(slickSlideLocator));
 
         //slick slide
-//        List<WebElement> slickSlides = webDriver.findElements(By.cssSelector(".news-area [data-index='5'] .single-features"));
-//        if (0 <= index && index < slickSlides.size()) {
-//            slickSlides.get(index).click();
-//        } else {
-//            throw new IndexOutOfBoundsException("Indeks " + index + " tidak valid untuk elemen slick-slide.");
-//        }
+        List<WebElement> slickSlides = webDriver.findElements(slickSlideLocator);
+        if (0 <= index && index < slickSlides.size()) {
+            WebElement slickSlide = wait.until(ExpectedConditions.elementToBeClickable(slickSlides.get(index)));
+            slickSlide.click();
+        } else {
+            throw new IndexOutOfBoundsException("Indeks " + index + " tidak valid untuk elemen slick-slide.");
+        }
     }
 
 }

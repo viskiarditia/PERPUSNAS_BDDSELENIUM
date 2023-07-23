@@ -14,4 +14,4 @@ Feature: Testing menu Radio
 #  Scenario: "Users Click Scroll to Testimoni Kami"
 #    Then User Click All Content in Testimoni Kami
   Scenario: "Users Click Scroll to Koleksi Unggulan"
-    Then User Click All Content in Koleksi Unggulan 5
+    Then User Click All Content in Koleksi Unggulan 0

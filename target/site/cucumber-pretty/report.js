@@ -21,7 +21,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 25398796125,
+  "duration": 21922058834,
   "status": "passed"
 });
 formatter.background({
@@ -45,14 +45,14 @@ formatter.match({
   "location": "BerandaSteps.userOpenWebsitePerpusnas()"
 });
 formatter.result({
-  "duration": 3023213959,
+  "duration": 3115481459,
   "status": "passed"
 });
 formatter.match({
   "location": "BerandaSteps.clickMenuBeranda()"
 });
 formatter.result({
-  "duration": 15779000458,
+  "duration": 15874720042,
   "status": "passed"
 });
 formatter.scenario({
@@ -107,25 +107,24 @@ formatter.scenario({
 });
 formatter.step({
   "line": 17,
-  "name": "User Click All Content in Koleksi Unggulan 5",
+  "name": "User Click All Content in Koleksi Unggulan 0",
   "keyword": "Then "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "5",
+      "val": "0",
       "offset": 43
     }
   ],
   "location": "BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(int)"
 });
 formatter.result({
-  "duration": 4244382500,
-  "error_message": "java.lang.IndexOutOfBoundsException: Indeks 5 tidak valid untuk elemen slick-slide.\n\tat step_definitions.BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(BerandaReviewSteps.java:121)\n\tat ✽.Then User Click All Content in Koleksi Unggulan 5(features/Beranda/beranda-review.feature:17)\n",
-  "status": "failed"
+  "duration": 7908627834,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 2116087500,
+  "duration": 2169228542,
   "status": "passed"
 });
 });
