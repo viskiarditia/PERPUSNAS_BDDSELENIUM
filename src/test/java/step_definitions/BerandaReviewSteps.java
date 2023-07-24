@@ -46,6 +46,10 @@ public class BerandaReviewSteps {
 
     @Then("^User Click All Content in Unit Kerja$")
     public void userClickAllContentInUnitKerja() throws InterruptedException {
+        WebElement unitKerja = webDriver.findElement(By.xpath("//h3[.='Unit Kerja Perpusnas Republik Indonesia']"));
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", unitKerja);
+        Thread.sleep(1000);
+
         String[] elementSelectors = {
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]",
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]",
@@ -66,7 +70,6 @@ public class BerandaReviewSteps {
                 "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[17]",
 
         };
-        js.executeScript("window.scrollBy(0,1800)", "");
 
         for (String selector : elementSelectors) {
             WebElement element = webDriver.findElement(By.xpath(selector));

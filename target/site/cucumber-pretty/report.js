@@ -21,7 +21,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 21922058834,
+  "duration": 30068467959,
   "status": "passed"
 });
 formatter.background({
@@ -45,14 +45,14 @@ formatter.match({
   "location": "BerandaSteps.userOpenWebsitePerpusnas()"
 });
 formatter.result({
-  "duration": 3115481459,
+  "duration": 4046382750,
   "status": "passed"
 });
 formatter.match({
   "location": "BerandaSteps.clickMenuBeranda()"
 });
 formatter.result({
-  "duration": 15874720042,
+  "duration": 11285889917,
   "status": "passed"
 });
 formatter.scenario({
@@ -80,24 +80,126 @@ formatter.scenario({
     {
       "line": 11,
       "value": "#    Then User Click All Content in Berita Terbaru"
-    },
-    {
-      "line": 12,
-      "value": "#  Scenario: \"Users Click Scroll to Buku Terbaru\""
-    },
-    {
-      "line": 13,
-      "value": "#    Then User Click All Content in Buku Terbaru"
-    },
-    {
-      "line": 14,
-      "value": "#  Scenario: \"Users Click Scroll to Testimoni Kami\""
-    },
-    {
-      "line": 15,
-      "value": "#    Then User Click All Content in Testimoni Kami"
     }
   ],
+  "line": 12,
+  "name": "\"Users Click Scroll to Buku Terbaru\"",
+  "description": "",
+  "id": "testing-menu-radio;\"users-click-scroll-to-buku-terbaru\"",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 13,
+  "name": "User Click All Content in Buku Terbaru",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "BerandaReviewSteps.userClickAllContentInBukuTerbaru()"
+});
+formatter.result({
+  "duration": 19853612209,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2198671792,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 28018197792,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "User open website perpusnas",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "click Menu Beranda",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "BerandaSteps.userOpenWebsitePerpusnas()"
+});
+formatter.result({
+  "duration": 3981380375,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BerandaSteps.clickMenuBeranda()"
+});
+formatter.result({
+  "duration": 9936844583,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "\"Users Click Scroll to Testimoni Kami\"",
+  "description": "",
+  "id": "testing-menu-radio;\"users-click-scroll-to-testimoni-kami\"",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 15,
+  "name": "User Click All Content in Testimoni Kami",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "BerandaReviewSteps.userClickAllContentInTestimoniKami()"
+});
+formatter.result({
+  "duration": 20666643709,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2215187166,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 25276928375,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "User open website perpusnas",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "click Menu Beranda",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "BerandaSteps.userOpenWebsitePerpusnas()"
+});
+formatter.result({
+  "duration": 3850245958,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BerandaSteps.clickMenuBeranda()"
+});
+formatter.result({
+  "duration": 11519218542,
+  "status": "passed"
+});
+formatter.scenario({
   "line": 16,
   "name": "\"Users Click Scroll to Koleksi Unggulan\"",
   "description": "",
@@ -120,11 +222,11 @@ formatter.match({
   "location": "BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(int)"
 });
 formatter.result({
-  "duration": 7908627834,
+  "duration": 15824376584,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2169228542,
+  "duration": 2110169167,
   "status": "passed"
 });
 });
