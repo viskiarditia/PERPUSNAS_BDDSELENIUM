@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="step_definitions.RunCukesTest" time="6.531" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="step_definitions.RunCukesTest" time="2.236" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
@@ -64,16 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Buku Terbaru&quot;" name="Given User open website perpusnas" time="0.004"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Buku Terbaru&quot;" name="When click Menu Beranda" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Buku Terbaru&quot;" name="Then User Click All Content in Buku Terbaru" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Buku Terbaru&quot;" name="Scenario: &quot;Users Click Scroll to Buku Terbaru&quot;" time="2.2"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Testimoni Kami&quot;" name="Given User open website perpusnas" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Testimoni Kami&quot;" name="When click Menu Beranda" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Testimoni Kami&quot;" name="Then User Click All Content in Testimoni Kami" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Testimoni Kami&quot;" name="Scenario: &quot;Users Click Scroll to Testimoni Kami&quot;" time="2.216"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Koleksi Unggulan&quot;" name="Given User open website perpusnas" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Koleksi Unggulan&quot;" name="When click Menu Beranda" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Koleksi Unggulan&quot;" name="Then User Click All Content in Koleksi Unggulan 0" time="0"/>
-  <testcase classname="Scenario: &quot;Users Click Scroll to Koleksi Unggulan&quot;" name="Scenario: &quot;Users Click Scroll to Koleksi Unggulan&quot;" time="2.111"/>
+  <testcase classname="Scenario: &quot;Users Click menu BintangPusnasEdu&quot;" name="Given User open website perpusnas" time="0.003"/>
+  <testcase classname="Scenario: &quot;Users Click menu BintangPusnasEdu&quot;" name="When click Menu Beranda" time="0"/>
+  <testcase classname="Scenario: &quot;Users Click menu BintangPusnasEdu&quot;" name="Then Click menu BintangPusnasEdu and user look with hover cursor to all fitur" time="0"/>
+  <testcase classname="Scenario: &quot;Users Click menu BintangPusnasEdu&quot;" name="Scenario: &quot;Users Click menu BintangPusnasEdu&quot;" time="2.233"/>
 </testsuite>

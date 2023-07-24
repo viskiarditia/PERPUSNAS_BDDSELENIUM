@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4046382750,
+              "duration": 2655919375,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 11285889917,
+              "duration": 8267684000,
               "status": "passed"
             },
             "line": 5,
@@ -36,241 +36,55 @@
         ]
       },
       {
-        "comments": [
+        "before": [
           {
-            "line": 6,
-            "value": "#  Scenario: \"Users Click Scroll to Layanan Kami\""
-          },
+            "result": {
+              "duration": 26109664334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "\"Users Click menu BintangPusnasEdu\"",
+        "description": "",
+        "id": "testing-menu-bintangpusnasedu;\"users-click-menu-bintangpusnasedu\"",
+        "after": [
           {
+            "result": {
+              "duration": 2232525459,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12441795417,
+              "status": "passed"
+            },
             "line": 7,
-            "value": "#    Then User Hover All Content in Beranda Layanan Kami"
-          },
-          {
-            "line": 8,
-            "value": "#  Scenario: \"Users Click Scroll to Unit Kerja\""
-          },
-          {
-            "line": 9,
-            "value": "#    Then User Click All Content in Unit Kerja"
-          },
-          {
-            "line": 10,
-            "value": "#  Scenario: \"Users Click Scroll to Berita Terbaru\""
-          },
-          {
-            "line": 11,
-            "value": "#    Then User Click All Content in Berita Terbaru"
-          }
-        ],
-        "before": [
-          {
-            "result": {
-              "duration": 30068467959,
-              "status": "passed"
-            },
+            "name": "Click menu BintangPusnasEdu and user look with hover cursor to all fitur",
             "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "\"Users Click Scroll to Buku Terbaru\"",
-        "description": "",
-        "id": "testing-menu-radio;\"users-click-scroll-to-buku-terbaru\"",
-        "after": [
-          {
-            "result": {
-              "duration": 2198671792,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 19853612209,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User Click All Content in Buku Terbaru",
-            "match": {
-              "location": "BerandaReviewSteps.userClickAllContentInBukuTerbaru()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3981380375,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User open website perpusnas",
-            "match": {
-              "location": "BerandaSteps.userOpenWebsitePerpusnas()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9936844583,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "click Menu Beranda",
-            "match": {
-              "location": "BerandaSteps.clickMenuBeranda()"
-            },
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 28018197792,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "\"Users Click Scroll to Testimoni Kami\"",
-        "description": "",
-        "id": "testing-menu-radio;\"users-click-scroll-to-testimoni-kami\"",
-        "after": [
-          {
-            "result": {
-              "duration": 2215187166,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 20666643709,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User Click All Content in Testimoni Kami",
-            "match": {
-              "location": "BerandaReviewSteps.userClickAllContentInTestimoniKami()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3850245958,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User open website perpusnas",
-            "match": {
-              "location": "BerandaSteps.userOpenWebsitePerpusnas()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11519218542,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "click Menu Beranda",
-            "match": {
-              "location": "BerandaSteps.clickMenuBeranda()"
-            },
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 25276928375,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "\"Users Click Scroll to Koleksi Unggulan\"",
-        "description": "",
-        "id": "testing-menu-radio;\"users-click-scroll-to-koleksi-unggulan\"",
-        "after": [
-          {
-            "result": {
-              "duration": 2110169167,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 15824376584,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User Click All Content in Koleksi Unggulan 0",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0",
-                  "offset": 43
-                }
-              ],
-              "location": "BerandaReviewSteps.userClickAllContentInKoleksiUnggulan(int)"
+              "location": "BintangPusnasEduSteps.clickMenuBintangPusnasEduAndUserLookWithHoverCursorToAllFitur()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Testing menu Radio",
+    "name": "Testing menu BintangPusnasEdu",
     "description": "",
-    "id": "testing-menu-radio",
+    "id": "testing-menu-bintangpusnasedu",
     "keyword": "Feature",
-    "uri": "features/Beranda/beranda-review.feature",
+    "uri": "features/Beranda/BintangPusnasEdu.feature",
     "tags": [
       {
         "line": 1,
@@ -282,7 +96,7 @@
       },
       {
         "line": 1,
-        "name": "@beranda-review"
+        "name": "@BintangPusnasEdu"
       }
     ]
   }

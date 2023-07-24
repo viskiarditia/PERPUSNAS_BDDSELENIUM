@@ -3,7 +3,6 @@ package step_definitions;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,13 +14,13 @@ import static step_definitions.Hooks.webDriver;
 public class BerandaReviewSteps {
     private WebDriverWait wait;
     private JavascriptExecutor js;
+    private Actions actions;
     public BerandaReviewSteps() {
         // Konstruktor kosong
-        super();
         this.wait = new WebDriverWait(webDriver, 15);
         this.js = (JavascriptExecutor) webDriver;
+        this.actions = new Actions(webDriver);
     }
-    Actions actions = new Actions(webDriver);
 
     @Then("^User Hover All Content in Beranda Layanan Kami$")
     public void userHoverAllContentInBerandaLayananKami() throws InterruptedException {
