@@ -21,7 +21,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 26109664334,
+  "duration": 24496363459,
   "status": "passed"
 });
 formatter.background({
@@ -45,14 +45,14 @@ formatter.match({
   "location": "BerandaSteps.userOpenWebsitePerpusnas()"
 });
 formatter.result({
-  "duration": 2655919375,
+  "duration": 4280552333,
   "status": "passed"
 });
 formatter.match({
   "location": "BerandaSteps.clickMenuBeranda()"
 });
 formatter.result({
-  "duration": 8267684000,
+  "duration": 5364159417,
   "status": "passed"
 });
 formatter.scenario({
@@ -72,11 +72,11 @@ formatter.match({
   "location": "BintangPusnasEduSteps.clickMenuBintangPusnasEduAndUserLookWithHoverCursorToAllFitur()"
 });
 formatter.result({
-  "duration": 12441795417,
+  "duration": 9766526000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2232525459,
+  "duration": 2119469792,
   "status": "passed"
 });
 });

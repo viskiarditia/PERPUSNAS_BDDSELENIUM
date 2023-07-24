@@ -24,31 +24,29 @@ public class BintangPusnasEduSteps {
         WebElement BintangPusnasEdu = webDriver.findElement(By.xpath("//section[@class='features-area offer-area pt-100 pb-70']//div[@class='col-xl-4 col-lg-6 col-md-6 col-sm-6']/div[.='BintangPusnas EduPerpustakaan Menjangkau Masyarakat']"));
         BintangPusnasEdu.click();
         Thread.sleep(5000);
-        String[] elementSelectors = {
-                "/html[1]/body[1]/section[2]/div[1]/div[1]/div[1]/div[1]",
-                "/html[1]/body[1]/section[2]/div[1]/div[1]/div[2]/div[1]",
-                "/html[1]/body[1]/section[2]/div[1]/div[1]/div[3]/div[1]"
-
-        };
-        WebElement fitur = webDriver.findElement(By.xpath("//h2[contains(text(),'Fitur')]"));
-        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", fitur);
-        Thread.sleep(1000);
-
-        for (String selector : elementSelectors) {
-            WebElement element = webDriver.findElement(By.xpath(selector));
-            actions.moveToElement(element).perform();
-            Thread.sleep(500);
-        }
-        String[] elementSelectorsDua = {
-                "/html[1]/body[1]/section[2]/div[1]/div[1]/div[4]/div[1]",
-                "/html[1]/body[1]/section[2]/div[1]/div[1]/div[5]/div[1]"
-        };
-        WebElement part4 = webDriver.findElement(By.xpath("//body/section[@id='fitur']/div[1]/div[1]/div[4]/div[1]"));
-        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", part4);
-        for (String selector2 : elementSelectorsDua) {
-            WebElement elementhaha = webDriver.findElement(By.xpath(selector2));
-            actions.moveToElement(elementhaha).perform();
-            Thread.sleep(500);
-        }
+//        String[] elementSelectors = {
+//                "//div[@class='row match-height']/div[1]/div[@class='box-item']",
+//                "//div[@class='row match-height']/div[2]/div[@class='box-item']",
+//                "//div[@class='row match-height']/div[3]/div[@class='box-item']"
+//
+//        };
+//        Thread.sleep(1000);
+//        for (String selector : elementSelectors) {
+//            WebElement element = webDriver.findElement(By.xpath(selector));
+//            js.executeScript("arguments[0].scrollIntoView(true);", element);
+//            actions.moveToElement(element).perform();
+//            Thread.sleep(500);
+//        }
+//        String[] elementSelectorsDua = {
+//                "//div[4]/div[@class='box-item']",
+//                "//div[5]/div[@class='box-item']"
+//        };
+//
+//        for (String selector2 : elementSelectorsDua) {
+//            WebElement elementhaha = webDriver.findElement(By.xpath(selector2));
+//            js.executeScript("arguments[0].scrollIntoView(true);", elementhaha);
+//            actions.moveToElement(elementhaha).perform();
+//            Thread.sleep(500);
+//        }
     }
 }
