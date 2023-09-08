@@ -24,6 +24,10 @@ public class BintangPusnasEduSteps {
         WebElement BintangPusnasEdu = webDriver.findElement(By.xpath("//section[@class='features-area offer-area pt-100 pb-70']//div[@class='col-xl-4 col-lg-6 col-md-6 col-sm-6']/div[.='BintangPusnas EduPerpustakaan Menjangkau Masyarakat']"));
         BintangPusnasEdu.click();
         Thread.sleep(5000);
+        WebElement ios = webDriver.findElement(By.xpath("//a[contains(.,'ios')]"));
+        ios.click();
+
+
 //        String[] elementSelectors = {
 //                "//div[@class='row match-height']/div[1]/div[@class='box-item']",
 //                "//div[@class='row match-height']/div[2]/div[@class='box-item']",

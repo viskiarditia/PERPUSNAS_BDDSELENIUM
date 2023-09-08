@@ -13,6 +13,9 @@ public class Hooks {
     @Before
     public void openBrowser(){
         ChromeOptions a = new ChromeOptions();
+        //   a.addArguments("--no-sandbox");
+        //   a.addArguments("--disable-dev-shm-usage");
+        //   a.addArguments("--headless");
         a.addArguments("--remote-allow-origins=*");
         WebDriverManager.chromedriver().setup();
         webDriver= new ChromeDriver(a);
